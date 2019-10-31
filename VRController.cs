@@ -29,7 +29,7 @@ public class VRController : MonoBehaviour
         Head = SteamVR_Render.Top().head;
     }
 
-    private void Update()
+    private void Fixedupdate()
     {
         //HandleHead();
         HandleHeight();
