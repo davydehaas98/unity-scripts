@@ -18,7 +18,7 @@ public class Hand : MonoBehaviour
         Pose = GetComponent<SteamVR_Behaviour_Pose>();
         Joint = GetComponent<FixedJoint>();
     }
-    private void Update()
+    private void FixedUpdate()
     {
         // Down
         if (GrabAction.GetStateDown(Pose.inputSource))
